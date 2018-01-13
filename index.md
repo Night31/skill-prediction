@@ -27,7 +27,7 @@ _Steps:_
 3. Start proxy
 4. DONE!
 
-### Links:
+## Links:
 
 **Download link:**
 
@@ -35,7 +35,7 @@ _Steps:_
 
 **Wiki:** [Here](https://github.com/SaltyMonkey/skill-prediction/wiki)
 
-### Support or Contact
+## Support or Contact
 
 **Discord**
 
