@@ -6,6 +6,7 @@ This unofficial SP maintained by **Leyki**, **Yunfei**, **SaltyMonkey**.
 
 You can find ALL links in _Links:_ section
 
+
 ## Autoupdate:
 
 Autoupdate works with proxy by [Caali](https://discord.gg/maqBmJV)
@@ -18,6 +19,7 @@ _Steps:_
 3. Run game
 4. DONE! This SP already included in his proxy
 
+
 ## Manual installation:
 
 _Steps:_
@@ -27,9 +29,8 @@ _Steps:_
 3. Start proxy
 4. DONE!
 
-## Links:
 
-**Download link:**
+## Links:
 
 **Unofficial SP bundle**: [Link](https://github.com/SaltyMonkey/skill-prediction/archive/master.zip)
 
@@ -38,8 +39,6 @@ _Steps:_
 ## Support or Contact
 
 **Discord**
-
-Usually you can find us here:
 
 [Caali's discord](https://discord.gg/maqBmJV)
 
