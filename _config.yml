@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
 title: Unofficial Skill Prediction
 description: Simulates skills client-side, eliminating ping-based delays and animation lock ONLY CLIENTSIDE
-show_downloads: "true"
+show_downloads: "false"
