@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+## Information
 
-You can use the [editor on GitHub](https://github.com/SaltyMonkey/skill-prediction/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Hi! This is official page for unofficial skill prediction module :3
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This unofficial SP maintained by **Leyki**, **Yunfei**, **SaltyMonkey**.
 
-### Markdown
+You can find ALL links in _Links:_ section
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Autoupdate:
 
-```markdown
-Syntax highlighted code block
+Autoupdate works with proxy by [Caali](https://discord.gg/maqBmJV)
 
-# Header 1
-## Header 2
-### Header 3
+You should just download Caali's proxy.
 
-- Bulleted
-- List
+_Steps:_
+1. Download proxy from link below
+2. Start it
+3. Run game
+4. DONE! This SP already included in his proxy
 
-1. Numbered
-2. List
+## Manual installation:
 
-**Bold** and _Italic_ and `Code` text
+_Steps:_
+1. Download skill prediction with link at left side
+2. Unzip archive in `bin/node_modules`
+3. Check files location. Must be smth like `bin/node_modules/skill-prediction-master/index.js` 
+3. Start proxy
+4. DONE!
 
-[Link](url) and ![Image](src)
-```
+### Links:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Download link:** you can find it from left.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SaltyMonkey/skill-prediction/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**Wiki:** [Here](https://github.com/SaltyMonkey/skill-prediction/wiki)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Discord**
+Usually you can find us here:
+[Caali's discord](https://discord.gg/maqBmJV)
+
+[Tera Mods discord](https://discord.gg/ccuh9rj)
+
+**About issues**
+You can create issue request with additional information [here](https://github.com/SaltyMonkey/skill-prediction/issues)
+
+### Pinkie Pie - original developer. Thx, Pinkie!
+
+[Original SP link](https://github.com/pinkipi/skill-prediction)
