@@ -824,15 +824,14 @@ module.exports = {
 			},
 			0: {
 				length: 2800,
-				noInterrupt: ['1-0', '1-1', 2, 3, 4, 9, 11, 12, 13, 15, '18-0', 23, 24, 25, 26, 27, 28, 29],
+				noInterrupt: ['1-0', '1-1', 2, 3, 4, 9, 11, 12, 13, 15, 23, 24, 25, 26, 27, 28, 29],
 				chains: {
 					'1-2': 30,
 					5: 30,
 					8: 30,
 					10: 30,
-					'18-1': 30,
+					18: 30,
 					21: 30,
-					24: 30		// Chained leash->Spring attack really? NoInterrupt has 24 too
 				}
 			},
 			30: { length: 1850 }
@@ -971,8 +970,7 @@ module.exports = {
 					13: 30,
 					15: 30,
 					18: 30,
-					21: 30,
-					24: 30	// Chained Leash->Wallop wut? NoInterrupt has 24 too
+					21: 30
 				}
 			},
 			30: {
@@ -1016,7 +1014,6 @@ module.exports = {
 				length: [333.33, 1055, 3121.66],
 				chains: {
 					15: 1,
-					24: 1,	// Chained Leash->Righteous Leap? Again?
 					25: 1
 				}
 			},
