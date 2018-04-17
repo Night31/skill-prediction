@@ -680,14 +680,14 @@ module.exports = {
 		3: { // Onslaught / Changed
 			'*': {
 				distance: [0, 100, 100, 100, 100, 40],
-				noInterrupt: [2, 3, 4, 8, 9, 10, 11, 12, 13, 15, 21, 23, 24, 25, 26, 27, 28, 29],
+				noInterrupt: [2, 3, 4, 8, 9, 10, 11, 12, 13, 15, '18-0', 21, 23, 24, 25, 26, 27, 28, 29],
 				abnormals: {
 					22060: { speed: 0.25 }
 				},
 				chains: {
 					1: 30,
 					5: 30,
-					18: 30
+					'18-1': 30
 				},
 				race: {
 					9: { distance: [0, 100, 100, 100, 100, 62.7] } // Elin
@@ -711,6 +711,7 @@ module.exports = {
 					3: 30,
 					5: 30,
 					8: 30,
+					10: 30,
 					13: 30,
 					15: 30,
 					18: 30,
@@ -732,11 +733,14 @@ module.exports = {
 					5: { distance: 30.000 }, // F.Aman
 					8: { distance: 30.000 }, // Popori*/
 					9: { distance: 43.69 } // Elin
+				},
+				chains: {
+					10: 30
 				}
 			},
 			0: true,
 			1: true,
-			2: { chains: { 10: 30 } },
+			2: { requiredBuff: 201830 },
 			30: { length: 694.6 }
 		},
 		7: { // Guardian Shout
@@ -782,10 +786,10 @@ module.exports = {
 			0: {
 				length: 925,
 				distance: 30,
-				noInterrupt: [2, 3, 4, 8, 9, 10, 11, 12, 13, 15, 21, 23, 24, 25, 26, 27, 28, 29],
+				noInterrupt: ['1-0', '1-1', 2, 3, 4, 8, 9, 10, 11, 12, 13, 15, '18-0', 21, 23, 24, 25, 26, 27, 28, 29],
 				chains: {
-					1: 30,
-					18: 30
+					'1-2': 30,
+					'18-1': 30
 				},
 				race: {
 					/*0: { distance: 30 }, // M.Human
@@ -820,13 +824,13 @@ module.exports = {
 			},
 			0: {
 				length: 2800,
-				noInterrupt: ['1-0', '1-1', 2, 3, 4, 9, 11, 12, 13, 15, 23, 24, 25, 26, 27, 28, 29],
+				noInterrupt: ['1-0', '1-1', 2, 3, 4, 9, 11, 12, 13, 15, '18-0', 23, 24, 25, 26, 27, 28, 29],
 				chains: {
-					1: 30,
+					'1-2': 30,
 					5: 30,
 					8: 30,
 					10: 30,
-					18: 30,
+					'18-1': 30,
 					21: 30,
 					24: 30		// Chained leash->Spring attack really? NoInterrupt has 24 too
 				}
@@ -947,7 +951,7 @@ module.exports = {
 		24: { // Chained Leash / Changed
 			'*': {
 				consumeAbnormal: 201803,
-				length: 1000,
+				length: [733, 833],
 				noInterrupt: [2]
 			},
 			1: true,
